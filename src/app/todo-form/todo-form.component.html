@@ -1,0 +1,10 @@
+<div>  
+<input 
+type="text" 
+placeholder="Название задачи..."
+[(ngModel)]="title"
+(keydown.enter)="addTodo()"
+
+>
+<button (click)="addTodo()">Добавить задачу</button>
+</div>
